@@ -1,5 +1,6 @@
 // Run this once: node seed.js
 const mongoose = require('mongoose');
+process.env.MONGO_URI = 'mongodb+srv://nagasanitrinandini_db_user:yummy12@cluster0.w8iffsj.mongodb.net/yummydb?retryWrites=true&w=majority';
 require('dotenv').config();
 
 const User = require('./models/User');
